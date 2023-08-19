@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário em JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script src="script.js"></script>
+
+<body>
+    <h1>Formulário</h1>
+    <form id="meuFormulario">
+        <label for="nome" class="campo">Nome:</label>
+        <input type="text" id="nome" name="nome"placeholder="Digite seu nome aqui"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"placeholder="Digite seu email aqui"><br><br>
+
+
+        <label for="telefone" class="campo">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" maxlength="11" placeholder="(XX) XXXX-XXXX"><br><br>
+
+
+        <label for="data_nascimento" class="data_nascimento">Data De Nascimento:</label><br><br>
+        <input type="date" id="data_nascimento" max="2030-12-31">
+
+        <label for="genero">Gênero:</label><br><br>
+        <select id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+
+        <label for="endereço">Endereço:</label>
+        <input type="endereço" id="endereço"placeholder="Digite seu endereço aqui"><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="cidade" id="cidade"placeholder="Digite sua cidade aqui"><br><br>
+
+
+        <label for="estado">Estado:</label>
+        <input type="estado" id="estado"placeholder="Digite seu estado aqui"><br><br>
+
+
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
